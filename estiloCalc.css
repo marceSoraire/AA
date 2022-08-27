@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #111;
+}
+.calculadora{
+    margin: 7rem auto;
+    padding: 20px;
+    background-color: rgb(75, 116, 77);
+    background-image: url(./img/dbz.jpg);
+    background-position: center;
+    background-size:cover;
+    border: 2px solid rgb(13, 110, 4);
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+}
+.calculadora td button{
+    display: block;
+    border-radius: 10px;
+    width: 75px;
+    height: 70px;
+    font-size: 23px;
+    background-color: rgb(228, 225, 225);
+    border: 1px solid RGB(211, 84, 0);
+}
+.res {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 96%;
+    height: 120px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid RGB(211, 84, 0);
+}
+.num {
+    background: rgb(169, 204, 227) !important;
+}

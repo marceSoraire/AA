@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <link type="text/css" href="estiloCalc.css" rel="stylesheet">
+    </head>
+    <body onload="comenzar();">
+        <table class="calculadora">
+            <tr>
+                <td colspan="4"><span id="resultado" class="res"></span></td>
+            </tr>
+            <tr>
+                <td><button id="seno">sen</button></td>
+                <td><button id="coseno">cos</button></td>
+                <td><button id="tangente">tan</button></td>
+                <td><button id="prender">off/on</button></td>
+            </tr>
+            <tr>
+                <td><button id="factorial">x!</button></td>
+                <td><button id="potencia">x^</button></td>
+                <td><button id="raizCuadrada">R/2</button></td>
+                <td><button id="raizCubica">R/3</button></td>
+            </tr>
+            <tr>
+                <td><button id="siete" class="num">7</button></td>
+                <td><button id="ocho" class="num">8</button></td>
+                <td><button id="nueve" class="num">9</button></td>
+                <td><button id="multiplicacion" class="basic">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="cuatro" class="num">4</button></td>
+                <td><button id="cinco" class="num">5</button></td>
+                <td><button id="seis" class="num">6</button></td>
+                <td><button id="division" class="basic">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="uno" class="num">1</button></td>
+                <td><button id="dos" class="num">2</button></td>
+                <td><button id="tres" class="num">3</button></td>
+                <td><button id="restar" class="basic">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="reset">C</button></td>
+                <td><button id="cero" class="num">0</button></td>
+                <td><button id="igual">=</button></td>
+                <td><button id="sumar" class="basic">+</button></td>
+            </tr>
+        </table>
+        <script src="calculadora.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
